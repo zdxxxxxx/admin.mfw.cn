@@ -1,0 +1,154 @@
+{
+    "app": {
+        "name": "MFW",
+        "description": "Ng-zorro admin panel front-end framework"
+    },
+    "user": {
+        "name": "zdxxxxx",
+        "avatar": "./assets/img/zorro.svg",
+        "email": "zdx@mfw.com"
+    },
+    "menu": [{
+        "text": "主导航",
+        "translate": "main_navigation",
+        "group": true,
+        "children": [{
+            "text": "仪表盘",
+            "translate": "dashboard",
+            "link": "/dashboard/v1",
+            "icon": "icon-speedometer",
+            "children": []
+        }]
+    }, {
+        "text": "组件",
+        "translate": "component",
+        "group": true,
+        "children": [{
+            "text": "基础元素",
+            "translate": "elements",
+            "link": "/elements",
+            "icon": "icon-chemistry",
+            "acl": "role-a",
+            "children": [{
+                "text": "按钮",
+                "link": "/elements/buttons",
+                "translate": "buttons"
+            }, {
+                "text": "Notification",
+                "link": "/elements/notification",
+                "translate": "notification"
+            }, {
+                "text": "Modal",
+                "link": "/elements/modal",
+                "translate": "modal"
+            }, {
+                "text": "SweetAlert",
+                "link": "/elements/sweetalert",
+                "translate": "sweetalert"
+            }, {
+                "text": "Tree Antd",
+                "link": "/elements/tree-antd",
+                "translate": "tree-antd"
+            }, {
+                "text": "Sortable",
+                "link": "/elements/sortable",
+                "translate": "sortable"
+            }, {
+                "text": "Spin",
+                "link": "/elements/spin",
+                "translate": "spin"
+            }, {
+                "text": "Dropdown",
+                "link": "/elements/dropdown",
+                "translate": "dropdown"
+            }, {
+                "text": "Grid",
+                "link": "/elements/grid",
+                "translate": "grid"
+            }, {
+                "text": "Grid Masonry",
+                "link": "/elements/gridmasonry",
+                "translate": "gridmasonry"
+            }, {
+                "text": "Typography",
+                "link": "/elements/typography",
+                "translate": "typography"
+            }, {
+                "text": "Font Icons",
+                "link": "/elements/iconsfont",
+                "translate": "iconsfont"
+            }, {
+                "text": "Colors",
+                "link": "/elements/colors",
+                "translate": "colors"
+            }]
+        }, {
+            "text": "表单",
+            "translate": "forms",
+            "link": "/forms",
+            "icon": "icon-note",
+            "acl": "role-a",
+            "children": [{
+                "text": "标准",
+                "link": "/forms/standard",
+                "translate": "standard"
+            }, {
+                "text": "扩展",
+                "link": "/forms/extended",
+                "translate": "extended"
+            }, {
+                "text": "校验",
+                "link": "/forms/validation",
+                "translate": "validation"
+            }, {
+                "text": "上传",
+                "link": "/forms/upload",
+                "translate": "upload"
+            }, {
+                "text": "图片裁剪",
+                "link": "/forms/cropper",
+                "translate": "cropper"
+            }]
+        }, {
+            "text": "Charts",
+            "translate": "charts",
+            "link": "/charts",
+            "icon": "icon-graph",
+            "acl": "role-a",
+            "children": [{
+                "text": "G2",
+                "link": "/charts/g2"
+            }]
+        }, {
+            "text": "表格",
+            "translate": "tables",
+            "link": "/tables",
+            "icon": "icon-grid",
+            "acl": "role-b",
+            "children": [{
+                "text": "标准",
+                "link": "/tables/standard",
+                "translate": "standard"
+            }, {
+                "text": "Full",
+                "link": "/tables/full",
+                "translate": "full"
+            }]
+        }, {
+            "text": "地图",
+            "translate": "maps",
+            "link": "/maps",
+            "icon": "icon-map",
+            "acl": "role-b",
+            "children": [{
+                "text": "QQ",
+                "link": "/maps/qq",
+                "translate": "qq"
+            }, {
+                "text": "Baidu",
+                "link": "/maps/baidu",
+                "translate": "baidu"
+            }]
+        }]
+    }]
+}
